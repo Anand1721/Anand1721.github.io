@@ -1,0 +1,28 @@
+.certifications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificate-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cert-div img {
+    width: 20%;
+    padding: 2rem;
+}
+
+.cert-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cert-div img:hover {
+    transform: scale(1.25);
+    transition: 0.1s;
+}

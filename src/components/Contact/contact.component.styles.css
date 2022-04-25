@@ -1,0 +1,54 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-element {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-div {
+    align-items: center;
+}
+
+input[type="text"], input[type="email"] {
+    height: 1.3rem;
+    width: 100%;
+}
+
+input[type="text"], input[type="email"], textarea {
+    border: solid #262d39 1px;
+    background-color: #1d2430;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+    color: white;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border: solid #252860 1px;
+    outline: #252860;
+    box-shadow: 2px 0px 5px 2px #252860;
+}
+
+textarea {
+    width: 712px;
+    height: 187px;
+    resize: none;
+}
+
+button[type="submit"] {
+    background-color: #5653e3;
+    width: 50%;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}

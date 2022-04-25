@@ -1,0 +1,51 @@
+.index-div {
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-image {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 30%;
+    margin-bottom: 1rem;
+}
+
+.sidebar {
+    width: 12%;
+    min-height:max-content;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-div-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-page {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    width: 80%;
+}
+
+.link-page:hover {
+    background-color: #1d2430;
+}
+
+.sidebar-div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.content {
+    width: 85%;
+}
