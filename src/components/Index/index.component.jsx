@@ -5,6 +5,8 @@ import Projects from '../Projects/projects.component';
 import Contact from '../Contact/contact.component';
 import ProfileImage from '../../assets/prof.jpg';
 import './index.component.styles.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faInstagram, faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Certifications from "../Certifications/certifications.component";
 
 class Index extends Component {
@@ -21,6 +23,12 @@ class Index extends Component {
                         <Link className="link-page" to="/projects">Projects</Link>
                         <Link className="link-page" to="/certifications">Certifications</Link>
                         <Link className="link-page" to="/contact">Contact</Link>
+                    </div>
+                    <div>
+                        <a className="social-media-links" href="https://www.facebook.com/anand.kalyanaraman17" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
+                        <a className="social-media-links" href="https://www.instagram.com/anandk_17/?hl=en" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                        <a className="social-media-links" href="https://github.com/Anand1721" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+                        <a className="social-media-links" href="https://www.linkedin.com/in/anand-kalyanaraman-110b271a4/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </div>
                 </div>
                 <hr className="hr-sep"/>

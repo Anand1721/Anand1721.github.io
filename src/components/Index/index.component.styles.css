@@ -49,3 +49,11 @@
 .content {
     width: 85%;
 }
+
+.social-media-links, .social-media-links:focus, .social-media-links:active, .social-media-links:visited {
+    color: white;
+}
+
+.social-media-links {
+    padding: 0 6px;
+}
