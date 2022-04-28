@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-.div-align-div #proj1 {
+.div-align-div #proj1, .div-align-div #proj2, .div-align-div #proj3 {
     min-width: 400px;
     max-width: 400px;
     padding: 0;
