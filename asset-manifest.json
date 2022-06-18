@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8b9dafa.css",
+    "main.js": "/static/js/main.856cb7b4.js",
+    "static/media/certificate-python.jpg": "/static/media/certificate-python.0e660a0ce752bb82e9ff.jpg",
+    "static/media/certificate-c++.jpg": "/static/media/certificate-c++.897f65ff8bbb0227f3e4.jpg",
+    "static/media/project-1.png": "/static/media/project-1.8447b8e78b5571f88374.png",
+    "static/media/project-3.PNG": "/static/media/project-3.73e32e6d3ae0cf503b39.PNG",
+    "static/media/project-2.png": "/static/media/project-2.59ea29a4394001f94f06.png",
+    "static/media/prof.jpg": "/static/media/prof.67405b4fd2db79223a8b.jpg",
+    "index.html": "/index.html",
+    "static/media/code-white.svg": "/static/media/code-white.a732e1ef6460cac452378cccfb4a294b.svg",
+    "static/media/arrow-forward.svg": "/static/media/arrow-forward.5273b54fbaa79dc791d06c7465420904.svg",
+    "main.d8b9dafa.css.map": "/static/css/main.d8b9dafa.css.map",
+    "main.856cb7b4.js.map": "/static/js/main.856cb7b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8b9dafa.css",
+    "static/js/main.856cb7b4.js"
+  ]
+}
